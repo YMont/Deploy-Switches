@@ -2,11 +2,13 @@
 Day0-Zero Touch Provisioning
 
 ## .py: device_list.py, dhcp_server.py, main.py, switch_list.py
-device_list: It is <br>
-使用Python第三方庫Netmiko去下達命令至Cisco Switch/Router Interface，進而取代使用Console的方法
+main.py: It's main function code.
+device_list.py: To store network device list <br>
+switch_list.py: 
 
 ## installation
 `pip install netmiko`
+`pip install openpyxl`
 
 ---
 ###### reference
